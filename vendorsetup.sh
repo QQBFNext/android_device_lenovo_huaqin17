@@ -1,0 +1,3 @@
+add_lunch_combo lineage_huaqin17-user
+add_lunch_combo lineage_huaqin17-userdebug
+add_lunch_combo lineage_huaqin17-eng

@@ -1,0 +1,26 @@
+# Security/MTK-specific device nodes
+/dev/preloader            0640   root       system
+/dev/dsp_bl               0640   root       system
+/dev/block/mmcblk0p2      0640   root       system
+/dev/seccfg               0660   root       system
+/dev/bootimg              0640   root       system
+/dev/recovery             0640   root       system
+/dev/sec_ro               0640   root       system
+/dev/mtd/mtd0             0640   root       system
+/dev/mtd/mtd1             0640   root       system
+/dev/mtd/mtd3             0660   root       system
+/dev/mtd/mtd6             0640   root       system
+/dev/mtd/mtd7             0640   root       system
+
+# Additional log device
+/dev/xLog                 0644   root       root
+/dev/log/ksystem          0660   root       log
+
+# SGX device node (PowerVR GPU)
+/dev/pvrsrvkm             0666   root       root
+
+# Additional MTK device nodes
+/dev/nvram                0660   root       system
+/dev/misc                 0660   root       system
+/dev/pro_info             0660   root       system
+/dev/block/mmcblk0        0660   root       system
