@@ -17,7 +17,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := lib_driver_cmd_mtk
 LOCAL_MODULE_TAGS := eng
 LOCAL_SHARED_LIBRARIES := libc libcutils
-LOCAL_STATIC_LIBRARIES := libnl_2
 LOCAL_CFLAGS := $(L_CFLAGS)
 LOCAL_SRC_FILES := driver_mtk_nl80211.c
 LOCAL_C_INCLUDES := $(INCLUDES)

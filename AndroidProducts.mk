@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_huaqin17.mk
+    $(LOCAL_DIR)/lineage_huaqin17.mk
